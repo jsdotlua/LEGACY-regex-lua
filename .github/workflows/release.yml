@@ -31,7 +31,7 @@ jobs:
         run: wally publish
 
       - name: Build project
-        run: rojo build --output RegExp.rbxm
+        run: rojo build --output RegEx.rbxm
 
       - name: Create GitHub Release
         id: create_release
@@ -49,6 +49,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./RegExp.rbxm
-          asset_name: RegExp.rbxm
+          asset_path: ./RegEx.rbxm
+          asset_name: RegEx.rbxm
           asset_content_type: application/octet-stream
