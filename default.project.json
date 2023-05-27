@@ -1,5 +1,5 @@
 {
-    "name": "RegExp",
+    "name": "regex",
     "tree": {
         "$path": "src/"
     }

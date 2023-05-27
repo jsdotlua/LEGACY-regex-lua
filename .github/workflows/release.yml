@@ -27,7 +27,7 @@ jobs:
       - name: Install Dependencies
         run: just p
 
-      - name: Publish changed packages
+      - name: Publish package
         run: wally publish
 
       - name: Build project
