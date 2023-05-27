@@ -18,6 +18,9 @@ jobs:
       - name: Install Aftman
         uses: ok-nick/setup-aftman@v0
 
+      - name: Install Just
+        uses: extractions/setup-just@v1
+
       - name: Authenticate Wally
         run: wally login --token ${{ secrets.WALLY_ACCESS_TOKEN }}
 
