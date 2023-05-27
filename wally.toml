@@ -1,0 +1,8 @@
+[package]
+name = "jsdotlua/regexp"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+LuauPolyfill = "core-packages/luau-polyfill@1.2.3"

@@ -1,0 +1,9 @@
+{
+    "name": "RegExp",
+    "tree": {
+        "$path": "Packages/",
+        "RegExp": {
+            "$path": "src/"
+        }
+    }
+}
