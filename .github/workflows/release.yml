@@ -27,15 +27,8 @@ jobs:
       - name: Install Dependencies
         run: just p
 
-      - name: Get latest release
-        id: latest-release
-        uses: pozetroninc/github-action-get-latest-release@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true # This will error if no tags have been made yet, in which case publish.sh will fallback.
-
       - name: Publish changed packages
-        run: bash ./scripts/publish.sh ${{ steps.latest-release.outputs.tag_name }}
+        run: wally publish
 
       - name: Build project
         run: rojo build --output RegExp.rbxm
