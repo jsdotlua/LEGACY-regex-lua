@@ -31,7 +31,7 @@ jobs:
         run: wally publish
 
       - name: Build project
-        run: rojo build --output RegEx.rbxm
+        run: rojo build build.project.json --output RegEx.rbxm
 
       - name: Create GitHub Release
         id: create_release
