@@ -23,8 +23,8 @@ local myArray = myRe:exec("cdbbdbsbz");
 
 ## API Status
 
-The following table shows which JavaScript RegExp features are supported in each runtime.
+The following table shows which JavaScript RegExp features are supported in each runtime. If you require a specific RegEx feature and it is not supported then please submit and issue or make a pull request!
 
 | Runtime  | `exec()` | `test()` | `match()` | `matchAll()` | `search()` | `replace()` | `replaceAll()` | `split()` |
 | -------- | -------- | -------- | --------- | ------------ | ---------- | ----------- | -------------- | --------- |
-| Fallback | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Fallback | ✅        | ✅        | ❌         | ❌            | ❌          | ❌           | ❌              | ❌         |
