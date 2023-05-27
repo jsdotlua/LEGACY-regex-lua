@@ -1,6 +1,8 @@
 [package]
 name = "jsdotlua/regex"
+description = "https://github.com/jsdotlua/regex-lua"
 version = "1.0.0"
+license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
