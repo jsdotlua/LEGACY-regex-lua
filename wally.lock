@@ -44,7 +44,7 @@ dependencies = []
 
 [[package]]
 name = "jsdotlua/regex"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [["LuauPolyfill", "jsdotlua/luau-polyfill@1.2.3"]]
 
 [[package]]
