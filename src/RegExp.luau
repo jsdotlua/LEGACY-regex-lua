@@ -30,8 +30,7 @@
 --!nocheck
 --!optimize 2
 
-local Root = script:FindFirstAncestor("RegEx")
-local LuauPolyfill = require(Root.Parent.LuauPolyfill)
+local LuauPolyfill = require(script.Parent.Parent.LuauPolyfill)
 
 type Array<T> = LuauPolyfill.Array<T>
 type Object = { [string]: any }
